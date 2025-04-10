@@ -14,7 +14,7 @@ main{
     justify-content: center;
     margin: auto;
     width: 360px;
-    padding: 25vh 0px 0px 0px;
+    padding: 20vh 0px 0px 0px;
 }
 #imagem{
     background-image: url(imagens/lounge.jpg);
