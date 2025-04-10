@@ -13,7 +13,7 @@ main{
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 400px;
+    width: 360px;
     padding: 25vh 0px 0px 0px;
 }
 #imagem{
@@ -34,7 +34,7 @@ form{
 }
 #botao{
     padding: 5px;
-    margin: 20px;
+    margin: 15px;
     color: black;
     background-color: white;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.336);
@@ -48,6 +48,9 @@ form{
 label{
     padding: 1px;
     cursor: pointer;
+}
+#esq{
+    margin: 5px;
 }
 #cad{
     text-decoration: none;
