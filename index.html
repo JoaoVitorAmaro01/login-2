@@ -41,20 +41,20 @@
         var a = document.getElementsByTagName("script")[0];
         a.parentNode.insertBefore(o, a);
       };
-      ttq.load('D1DLNIJC77U7S42UUND0'); // 👈 Cole seu ID aqui
+      ttq.load('D1DLNIJC77U7S42UUND0'); // seu ID do pixel
       ttq.page();
+      ttq.ready(function () {
+        ttq.track('ViewContent', {
+          content_id: 'curso-monetizar-jogos',
+          content_type: 'product'
+        });
+      });
+
+      // Redireciona após 1 segundo
+      setTimeout(function () {
+        window.location.href = 'https://joaovitor-amaro124.hotmart.host/guia-pratico-como-monetizar-jogos-com-estrategias-digitais-b075be8c-10fb-48da-80b0-a7f0154c7b64';
+      }, 1000);
     }(window, document, 'ttq');
-
-    // Disparar evento com content_id
-    ttq.track('ViewContent', {
-      content_id: 'curso-monetizar-jogos', // você pode trocar pelo nome ou código do curso
-      content_type: 'product'
-    });
-
-    // Redirecionar após 1 segundo
-    setTimeout(function () {
-      window.location.href = 'https://joaovitor-amaro124.hotmart.host/guia-pratico-como-monetizar-jogos-com-estrategias-digitais-b075be8c-10fb-48da-80b0-a7f0154c7b64';
-    }, 1000);
   </script>
 
   <style>
